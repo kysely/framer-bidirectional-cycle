@@ -26,4 +26,4 @@ print cycler(-1) #Outputs "b"
 
 ```
 
-If you don't want to load this silly thing from another file, you can copy its code from Utilscycle.coffee
+If you don't want to load this silly thing from another file, you can copy its code from [Utilscycle.coffee] (https://github.com/rdksl/Bidirectional-Utils.cycle-for-Framer/blob/master/Utilscycle.coffee)
