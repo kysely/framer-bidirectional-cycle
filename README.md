@@ -14,6 +14,8 @@ Framer's Utils.cycle() extension that allows you to browse arrays in both direct
  
  
 ```coffeescript
+Utilscycle = require "Utilscycle"
+
 array = ["a", "b", "c", "d", "e", "f", "g", "h"]
 
 cycler = Utils.cycle(array)
@@ -23,7 +25,7 @@ print cycler(1) 	# Outputs "b" (next)
 print cycler(8) 	# Outputs "c" (next)
 print cycler(96) 	# Outputs "d" (next)
 print cycler(-1) 	# Outputs "c" (previous)
-print cycler(-82)  # Outputs "b" (previous)
+print cycler(-82)   # Outputs "b" (previous)
 
 ```
 
