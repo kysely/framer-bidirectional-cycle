@@ -10,6 +10,22 @@ This extension will override default method so you can browse through your array
 - Copy the ```Utilscycle.coffee``` file to your prototype's ```modules``` folder.
 - Call ```Utilscycle = require "Utilscycle"``` in your Framer prototype.
 
+or put this piece of code before you will call Utils.cycle()
+```javascript
+Utils.cycle = ->
+	args = Utils.arrayFromArguments arguments[0]
+	curr = -1
+
+	return (dir) ->
+		if dir < 0
+			curr--
+			curr = (args.length-1) if curr < 0
+		else
+			curr++
+			curr = 0 if curr >= args.length
+		return args[curr]
+```
+
 #### [Try the live demo] (https://framer.cloud)
 
 ![Screen Demo](./rangeFilterDemo.gif)
