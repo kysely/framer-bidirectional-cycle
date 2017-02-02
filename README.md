@@ -1,16 +1,14 @@
 # Bidirectional Utils.cycle() for Framer
 
-Utils.cycle() is a handy tool for going through an array. 
-Unfortunately, Framer's default method can only move to a "next" item of given array. 
-This extension will override default method so you can browse through your arrays in both directions (next &amp; previous)
+Framer's Utils.cycle() extension that allows you to browse arrays in both directions (instead of returning only next item).
 
 ## How To Use [(Try the live demo)] (https://framer.cloud/XJiCH/)
 
 - [Download the extension] (https://github.com/rdksl/Bidirectional-Utils.cycle-for-Framer/blob/master/BidirectionalUtilsCycle.zip?raw=true)
-- Copy the ```Utilscycle.coffee``` file to your prototype's ```modules``` folder.
-- Call ```Utilscycle = require "Utilscycle"``` in your Framer prototype.
+- Copy the `Utilscycle.coffee` file to your prototype's ```modules``` folder.
+- Call `Utilscycle = require "Utilscycle"` in your Framer prototype.
 - Set up as the default Utils.cycle()
-- Call your "cycler" function with no or any positive number to return ›next‹ item. Call with any negative number to return ›previous‹ item
+- Call your `cycler` function with no or any positive number to return `next` item. Call with any negative number to return `previous` item
 
 ```javascript
 array = ["a", "b", "c", "d", "e", "f", "g", "h"]
