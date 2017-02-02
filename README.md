@@ -9,8 +9,7 @@ This extension will override default method so you can browse through your array
 - [Download the extension] (https://github.com/rdksl/Bidirectional-Utils.cycle-for-Framer/blob/master/BidirectionalUtilsCycle.zip?raw=true)
 - Copy the ```Utilscycle.coffee``` file to your prototype's ```modules``` folder.
 - Call ```Utilscycle = require "Utilscycle"``` in your Framer prototype.
-
-This extension will override Framer's default Utils.cycle() method.
+- Use as the default Utils.cycle()
 
 #### Example ([Try the live demo] (https://framer.cloud/XJiCH/))
 ```javascript
