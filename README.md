@@ -10,7 +10,9 @@ Framer's Utils.cycle() extension that allows you to browse arrays in both direct
 - Set up as the default Utils.cycle()
 - To return `next` item, call your `cycler()` with *no* or *any positive number* as an argument
 - To return `previous` item, call your `cycler()` with *any negative number* as an argument
-
+ 
+ 
+ 
 ```coffeescript
 array = ["a", "b", "c", "d", "e", "f", "g", "h"]
 
@@ -24,5 +26,7 @@ print cycler(-1) 	# Outputs "c" (previous)
 print cycler(-82) # Outputs "b" (previous)
 
 ```
+
+ 
 
 If you don't want to load this silly thing from another file, you can copy its code from [Utilscycle.coffee] (https://github.com/rdksl/Bidirectional-Utils.cycle-for-Framer/blob/master/Utilscycle.coffee)
