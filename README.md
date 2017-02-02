@@ -11,17 +11,17 @@ Framer's Utils.cycle() extension that allows you to browse arrays in both direct
 - To return `next` item, call your `cycler()` with *no* or *any positive number* as an argument
 - To return `previous` item, call your `cycler()` with *any negative number* as an argument
 
-```javascript
+```coffeescript
 array = ["a", "b", "c", "d", "e", "f", "g", "h"]
 
 cycler = Utils.cycle(array)
 
-print cycler() #Outputs "a"
-print cycler(1) #Outputs "b"
-print cycler(8) #Outputs "c"
-print cycler(96) #Outputs "d"
-print cycler(-1) #Outputs "c"
-print cycler(-82) #Outputs "b"
+print cycler() 		# Outputs "a" (next)
+print cycler(1) 	# Outputs "b" (next)
+print cycler(8) 	# Outputs "c" (next)
+print cycler(96) 	# Outputs "d" (next)
+print cycler(-1) 	# Outputs "c" (previous)
+print cycler(-82) # Outputs "b" (previous)
 
 ```
 
