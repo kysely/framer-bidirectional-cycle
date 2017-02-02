@@ -32,22 +32,40 @@ Utils.cycle = ->
 
 ## How To Use
 
-#### Initialize your "cycler" object
+This extension will override Framer's default Utils.cycle() method and y
+
+
+#### Example
 ```javascript
 array = ["a", "b", "c", "d", "e", "f", "g", "h"]
+
 cycler = Utils.cycle(array)
+
+print cycler() #Outputs "a"
+print cycler(1) #Outputs "b"
+print cycler(8) #Outputs "c"
+print cycler(9) #Outputs "d"
+print cycler(-1) #Outputs "c"
+print cycler(-1) #Outputs "b"
+
 ```
 
-#### Go to the next item
 
-To move forward, you can use
+## Direct Install (aka copy the code)
+
+If you don't want this simple extension to be loaded from another file, you can copy it directly to your prototype's code.
+
 ```javascript
-cycler() # Or cycler(1)
-```
+Utils.cycle = ->
+	args = Utils.arrayFromArguments arguments[0]
+	curr = -1
 
-#### Go to the previous item
-
-This is the only addition to the default Utils.cycle() method. Give your "cycler" object any negative parameter to move one item back
-```javascript
-cycler(-1)
+	return (dir) ->
+		if dir < 0
+			curr--
+			curr = (args.length-1) if curr < 0
+		else
+			curr++
+			curr = 0 if curr >= args.length
+		return args[curr]
 ```
