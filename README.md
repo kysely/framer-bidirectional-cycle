@@ -8,8 +8,8 @@ Framer's Utils.cycle() extension that allows you to browse arrays in both direct
 - Copy the `Utilscycle.coffee` file to your prototype's ```modules``` folder.
 - Call `Utilscycle = require "Utilscycle"` in your Framer prototype.
 - Set up as the default Utils.cycle()
-- To return `next` item, call your `cycler()` with no or any positive number as an argument
-- To return `previous` item, call your `cycler()` with any negative number as an argument
+- To return `next` item, call your `cycler()` with *no* or *any positive number* as an argument
+- To return `previous` item, call your `cycler()` with *any negative number* as an argument
 
 ```javascript
 array = ["a", "b", "c", "d", "e", "f", "g", "h"]
