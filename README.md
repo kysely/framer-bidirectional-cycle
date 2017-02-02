@@ -2,11 +2,11 @@
 
 Utils.cycle() is a handy tool for going through an array. 
 Unfortunately, Framer's default method can only move to a "next" item of given array. 
-This module will override default method so you can browse through your arrays in both directions (next &amp; previous)
+This extension will override default method so you can browse through your arrays in both directions (next &amp; previous)
 
 ## How To Install
 
-- [Download the module] (https://github.com/)
+- [Download the extension] (https://github.com/rdksl/Bidirectional-Utils.cycle-for-Framer/blob/master/BidirectionalUtilsCycle.zip?raw=true)
 - Copy the ```Utilscycle.coffee``` file to your prototype's ```modules``` folder.
 - Call ```Utilscycle = require "Utilscycle"``` in your Framer prototype.
 
