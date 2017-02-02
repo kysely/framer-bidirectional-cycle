@@ -26,23 +26,4 @@ print cycler(-1) #Outputs "b"
 
 ```
 
-
-
-## Direct Install (aka copy the code)
-
-If you don't want this simple extension to be loaded from another file, you can copy it directly to your prototype's code.
-
-```javascript
-Utils.cycle = ->
-	args = Utils.arrayFromArguments arguments[0]
-	curr = -1
-
-	return (dir) ->
-		if dir < 0
-			curr--
-			curr = (args.length-1) if curr < 0
-		else
-			curr++
-			curr = 0 if curr >= args.length
-		return args[curr]
-```
+If you don't want to load this silly thing from another file, you can copy its code from Utilscycle.coffee
