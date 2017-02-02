@@ -23,7 +23,7 @@ print cycler(1) 	# Outputs "b" (next)
 print cycler(8) 	# Outputs "c" (next)
 print cycler(96) 	# Outputs "d" (next)
 print cycler(-1) 	# Outputs "c" (previous)
-print cycler(-82) # Outputs "b" (previous)
+print cycler(-82)  # Outputs "b" (previous)
 
 ```
 
