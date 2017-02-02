@@ -31,9 +31,9 @@ print cycler(-1) #Outputs "b"
 
 ```
 
-#### [Try the live demo] (https://framer.cloud)
+## [Try the live demo] (https://framer.cloud/XJiCH/)
 
-![Screen Demo](./rangeFilterDemo.gif)
+
 
 ## Direct Install (aka copy the code)
 
