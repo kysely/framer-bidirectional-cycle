@@ -4,19 +4,15 @@ Utils.cycle() is a handy tool for going through an array.
 Unfortunately, Framer's default method can only move to a "next" item of given array. 
 This extension will override default method so you can browse through your arrays in both directions (next &amp; previous)
 
-## How To Install
+## How To Use
 
 - [Download the extension] (https://github.com/rdksl/Bidirectional-Utils.cycle-for-Framer/blob/master/BidirectionalUtilsCycle.zip?raw=true)
 - Copy the ```Utilscycle.coffee``` file to your prototype's ```modules``` folder.
 - Call ```Utilscycle = require "Utilscycle"``` in your Framer prototype.
 
-or copy the code directly into your prototype.
+This extension will override Framer's default Utils.cycle() method.
 
-## How To Use
-
-This extension will override Framer's default Utils.cycle() method and y
-
-#### Example
+#### Example ([Try the live demo] (https://framer.cloud/XJiCH/))
 ```javascript
 array = ["a", "b", "c", "d", "e", "f", "g", "h"]
 
@@ -30,8 +26,6 @@ print cycler(-1) #Outputs "c"
 print cycler(-1) #Outputs "b"
 
 ```
-
-## [Try the live demo] (https://framer.cloud/XJiCH/)
 
 
 
