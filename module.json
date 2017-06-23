@@ -1,5 +1,5 @@
 {
-    "name": "Bidirectional cycle",
+    "name": "Bidirectional Cycle",
     "description": "Extension that will make Utils.cycle() iterate in both directions",
     "author": "Radek Kysely",
 
