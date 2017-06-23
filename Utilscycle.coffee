@@ -3,7 +3,7 @@ Utils.cycle = ->
 	curr = -1
 
 	return (dir = true) ->
-		if dir || dir is 0
+		if dir
 			curr++
 			curr = 0 if curr >= args.length
 		else
