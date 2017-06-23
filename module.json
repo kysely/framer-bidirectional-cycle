@@ -1,0 +1,9 @@
+{
+    "name": "Bidirectional cycle",
+    "description": "Extension that will make Utils.cycle() iterate in both directions",
+    "author": "Radek Kysely",
+
+    "require": "Utilscycle = require 'Utilscycle'",
+    "install": "Utilscycle.coffee",
+    "example": "example.coffee"
+}
