@@ -5,5 +5,7 @@
 
     "require": "Utilscycle = require 'Utilscycle'",
     "install": "Utilscycle.coffee",
-    "example": "example.coffee"
+    "example": "example.coffee",
+
+    "thumb": "bidirectional-cycle-thumb.mov"
 }
