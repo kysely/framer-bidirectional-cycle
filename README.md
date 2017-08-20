@@ -3,6 +3,11 @@
 Framer's Utils.cycle() extension that allows you to browse arrays in both directions (instead of returning only next item).
 
 ## How To Use [(Try the live demo)](https://framer.cloud/XJiCH/)
+<a href='https://open.framermodules.com/Bidirectional Cycle'>
+    <img alt='Install with Framer Modules'
+    src='https://www.framermodules.com/assets/badge@2x.png' width='160' height='40' /></a>
+
+or
 
 - Copy the `Utilscycle.coffee` file to your prototype's `modules` folder.
 - Call `Utilscycle = require "Utilscycle"` in your Framer prototype.
